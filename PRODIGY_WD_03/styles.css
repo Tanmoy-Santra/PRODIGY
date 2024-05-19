@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0    
+}
+nav li{   
+    list-style-type: none;
+    display: inline-block;        
+    margin:10px;   
+    font-size: 20px; 
+    font-weight: bolder;
+}
+.logo{
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight:bolder; 
+    color: aqua;
+}
+.button{
+    background-color: orange;
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    border: none; 
+    font-size: 15px;
+    cursor: pointer;  
+}
+
+.button:hover{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
+
+.container{
+    color: white;
+    margin: 80px;
+   
+}
+.game-interface{     
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    color:rgb(36, 235, 36);
+}
+.game-container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    border-radius: 20px;
+}
+.box{
+    border: 2px solid rgb(222, 156, 70);
+    font-size: 8vw;  
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.gameInfo{
+    padding: 0 34px;
+}
+.box:hover{
+    background-color: blanchedalmond;
+}
+.info {
+    font-size: 22px;
+}
+
+.gameInfo{
+    padding: 0 34px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.gameInfo h1{
+    font-size: 2.5rem;
+}
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+#reset {
+    margin: 0 23px;
+    padding: 1px 18px;    
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    nav li{   
+        list-style-type: none;
+        display: flex;    
+        justify-content: space-around;
+        margin:10px;    
+    }
+    .imgbox img{
+        width: 0;
+        transition: width 1s ease-in-out;
+    }
+    
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    .container{
+        margin: 20px;
+        padding-top: 20px;
+    }
+    .game-interface{
+        display: block;  
+        justify-content: center;  
+        margin-left: 70px;        
+    }
+    
+    .game-container{
+        display: grid;
+        grid-template-rows: repeat(3,15vw);
+        grid-template-columns: repeat(3,15vw);
+        border-radius: 20px;
+    }
+    .gameInfo{
+        padding: 0 0;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    
+}
