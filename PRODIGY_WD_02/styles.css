@@ -1,0 +1,49 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('put_the_location_to_your_font.ttf or .otf');
+   }
+ body {
+            margin: auto;
+            padding: 0;
+            background-color: black;
+        }
+        
+        .container {
+            margin: auto;
+            margin-top: 150px;
+            background-color: rgb(26, 28, 47);
+            height: 300px;
+            width: 600px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .button-container button {
+            margin: 20px;
+            padding: 10px;
+            width: 156px;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+        }
+        
+        .watch-container {
+            height: 100px;
+            width: 350px;
+            border-radius: 20px;
+            background-color: azure;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-family: 'Courier New', Courier, monospace;
+        }
