@@ -35,6 +35,9 @@
             outline: none;
             border-radius: 10px;
         }
+        .button-container button:hover{
+            background-color: wheat;
+        }
         
         .watch-container {
             height: 100px;
