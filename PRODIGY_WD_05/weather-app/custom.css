@@ -1,0 +1,49 @@
+/* body{
+    background-color: var(aqua);
+} */
+
+
+.custom-body{
+    background-image: url('amazing-animal-beautiful-beautifull.jpg') ; 
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+    color: white; 
+    border: none;   
+}
+.card.custom-body{
+    background-color: transparent;
+    background-image: none;
+    color: white;
+    border: none;
+}
+main.custom-body{
+    background-color: transparent;
+    background-image: none;
+    color: white;
+    border: none;
+}
+.container.custom-body{
+    background-color: transparent;
+    background-image: none;
+    color: white;
+    border: none;
+}
+.container-fluid.custom-body{
+    background-color: transparent;
+    background-image: none;
+    color: white;
+    border: none;
+}
+.table-responsive .custom-body{
+    background-color: transparent;
+    background-image: none;
+    color: white;
+    border: none;
+}
+
